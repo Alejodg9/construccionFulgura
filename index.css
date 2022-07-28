@@ -50,11 +50,13 @@ body {
 .web {
   margin-bottom: 2px;
   line-height: 0.8;
+  width: 50%;
 
 }
 
 .estamos {
   margin-top: 2px;
+  width: 50%;
 }
 
 .dejamos {
@@ -65,8 +67,6 @@ body {
   margin-top: 2px;
 }
 
-
-
 .contactanos {
   margin-bottom: 2px;
 }
@@ -74,11 +74,6 @@ body {
 .mail {
   margin-top: 2px;
 }
-
-
-
-
-
 
 a:link {
   color: #f53700;
@@ -107,23 +102,53 @@ a:active {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 900px) {
 
+body{
+  height: 100vh;
+}
+
   .frame {
-    height: 80%;
+    align-self: center;
+    justify-self: center;
+    display:flex ;
+    height: 90%;
     width: 90%;
     background-color: #2b2c2c;
-    border-radius: 150px 0px 0px 0px;
+    border-radius: 300px 0px 0px 0px;
   }
+  .logo{
+    width: 50%;
+    border-radius: 300px 0px 0px 0px;
+  }
+
+  .text_frame{
+    margin-left: -10rem;
+  }
+
+  .web{
+    font-size: 3rem;
+  }
+  .estamos{
+    font-size: 1.5rem;
+    margin-bottom: 13%;
+  }
+  .dejamos {
+font-size: 1.5rem;
+  }
+  
+  .trabajos {
+    font-size: 1.5rem;
+
+  }
+
+  .contactanos {
+    margin-top: 13%;
+font-size: 1.8rem;
+  }
+  
+  .mail {
+    font-size: 1.4rem
+  }
+
 }
