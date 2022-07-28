@@ -128,10 +128,12 @@ body{
 
   .web{
     font-size: 3rem;
+    width: 100%;
   }
   .estamos{
     font-size: 1.5rem;
     margin-bottom: 13%;
+    width: 100%;
   }
   .dejamos {
 font-size: 1.5rem;
