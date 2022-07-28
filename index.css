@@ -75,6 +75,10 @@ body {
   margin-top: 2px;
 }
 
+.orange{
+  color: #f53700;
+}
+
 a:link {
   color: #f53700;
   background-color: transparent;
