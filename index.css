@@ -1,160 +1,188 @@
-body {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  justify-items: center;
-  height: 100%;
-  width: 100vw;
-  background-color: #f9EEE1;
-}
 
-.frame {
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    height: 100%;
+    width: 100vw;
+    background-color: #f9EEE1;
+  }
 
-  height: 100vh;
-  width: 100%;
-  background-color: #2b2c2c;
-  border-radius: 0px 300px 0px 0px;
-
-
-}
-
-.logo {
-  margin-top: 2rem;
-  width: 100%;
-  border-radius: 0px 350px 0px 0px;
+  .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100%;
+    background-color: #2c2c2c;
+    border-radius: 0px 300px 0px 0px;
 
 
+  }
 
-}
+  .logo_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
 
-.text_frame {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  width: 100%;
-  
+  }
 
-}
-
-.text {
-
-
-  font-family: 'Roboto', sans-serif;
-  color: #f9EEE1;
-}
-
-.web {
-  margin-bottom: 2px;
-  line-height: 0.8;
-  width: 50%;
-
-}
-
-.estamos {
-  margin-top: 2px;
-  width: 50%;
-}
-
-.dejamos {
-  margin-bottom: 2px;
-}
-
-.trabajos {
-  margin-top: 2px;
-}
-
-.contactanos {
-  margin-bottom: 2px;
-}
-
-.mail {
-  margin-top: 2px;
-}
-
-.orange{
-  color: #f53700;
-}
-
-a:link {
-  color: #f53700;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:visited {
-  color: #f53700;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color:#f75b13;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-a:active {
-  color: #f53700;
-  background-color: transparent;
-  text-decoration: underline;
-}
+  .logo {
+    margin-top: 2rem;
+    width: 50%;
+    border-radius: 0px 20px 0px 0px;
 
 
+
+  }
+
+  .text_frame {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+
+
+  }
+
+  .text {
+
+
+    font-family: 'Roboto', sans-serif;
+    color: #f9EEE1;
+  }
+
+  .web {
+    margin-bottom: 2px;
+    line-height: 0.8;
+    width: 50%;
+
+  }
+
+  .estamos {
+    margin-top: 2px;
+    width: 50%;
+  }
+
+  .dejamos {
+    margin-bottom: 2px;
+  }
+
+  .trabajos {
+    margin-top: 2px;
+  }
+
+  .contactanos {
+    margin-bottom: 2px;
+  }
+
+  .mail {
+    margin-top: 2px;
+  }
+
+  .orange {
+    color: #f53700;
+  }
+
+  a:link {
+    color: #f53700;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: #f53700;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #f75b13;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  a:active {
+    color: #f53700;
+    background-color: transparent;
+    text-decoration: underline;
+  }
 
 
 @media (min-width: 900px) {
 
-body{
-  height: 100vh;
-}
+  body {
+    height: 100vh;
+  }
 
   .frame {
-    align-self: center;
-    justify-self: center;
-    display:flex ;
+
+    align-content: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
     height: 90%;
     width: 90%;
-    background-color: #2b2c2c;
-    border-radius: 300px 0px 0px 0px;
+    background-color: #2d2c2c;
+    border-radius: 70px 0px 0px 0px;
   }
-  .logo{
+
+
+  .logo_container {
+    width: 40%;
+
+  }
+
+  .logo {
+    margin-top: 0;
     width: 50%;
-    border-radius: 300px 0px 0px 0px;
+    border-radius: 20px 0px 0px 0px;
+    margin-left: -1rem;
+
   }
 
-  .text_frame{
-    margin-left: -10rem;
+  .text {
+    margin-left: -2rem;
   }
 
-  .web{
+  .web {
     font-size: 3rem;
     width: 100%;
   }
-  .estamos{
-    font-size: 1.5rem;
+
+  .estamos {
+    font-size: 1.4rem;
     margin-bottom: 13%;
     width: 100%;
   }
+
   .dejamos {
-font-size: 1.5rem;
+    font-size: 1.4rem;
   }
-  
+
   .trabajos {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 
   }
 
   .contactanos {
     margin-top: 13%;
-font-size: 1.8rem;
+    font-size: 1.8rem;
   }
-  
+
   .mail {
-    font-size: 1.4rem
+    font-size: 2rem
   }
 
 }
